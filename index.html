@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <section id="input">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="What should we call you?" aria-required="true">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" placeholder="example@hotmail.com" aria-required="true">
+        <div class="pass-imput">
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" aria-required="true">
+            <button class="eye-button">
+                <img src="Img/open-eye.png" alt="" class="eye">
+            </button>            
+        </div>
+        <div class="pass-imput">
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" aria-required="true">
+            <button class="eye-button">
+                <img src="Img/open-eye.png" alt="" class="eye">
+            </button>
+        </div>        
+        <button id="submit" type="submit">Update Profile</button>
+        </section>
+        <section id="info">
+            <img src="Img/progress-circle.png" alt="" id="progress">
+            <label for="progress" class="progress">Profile completeness</label>
+            <ul class="CheckList">
+                <li class="checked">Create Account</li>
+                <li class="checked">Update Roadmap Progress</li>
+                <li class="checked">Setup Public Profile</li>
+                <li>Complete your first project</li>
+                <li>Invite your Friends</li>
+            </ul>
+        </section>
+    </form>
+</body>
+</html>
